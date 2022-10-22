@@ -33,4 +33,13 @@ public class UserDaoJdbcImpl implements UserDao {
     public void cleanUsersTable() {
 
     }
+
+    @Override
+    public void addUser(int i, String juma0, String aisal, byte b) {
+
+    }
+
+    public void findByUserById(int i) {
+
+    }
 }
