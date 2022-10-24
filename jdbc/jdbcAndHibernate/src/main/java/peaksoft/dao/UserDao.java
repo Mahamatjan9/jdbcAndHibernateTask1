@@ -18,6 +18,6 @@ public interface UserDao {
 
     void cleanUsersTable();
 
-    void addUser(int i, String juma0, String aisal, byte b);
+
 
 }

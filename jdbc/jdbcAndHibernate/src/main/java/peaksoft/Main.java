@@ -3,32 +3,34 @@ package peaksoft;
 import peaksoft.dao.UserDao;
 import peaksoft.dao.UserDaoHibernateImpl;
 import peaksoft.model.User;
+import peaksoft.service.UserService;
+import peaksoft.service.UserServiceImpl;
+import peaksoft.service.UserServiceImplH;
 
-public class Main {
-    public static void main(String[] args, UserDao UserDaoHibernate) {
+public class Main
+{
+    public static void main(String[] arg) {
         // реализуйте алгоритм здесь
 
 
 
-//        UserDaoJdbcImpl userDaoJdbc = new UserDaoJdbcImpl();
-//        UserDaoHibernateImpl userDaoHibernate = new UserDaoHibernateImpl();
-//        userDaoJdbc.createUsersTable();
-//        userDaoJdbc.dropUsersTable();
-//        userDaoJdbc.saveUser("Maha","Islamidinov",(byte)12 );
-//        userDaoJdbc.findByUserById(3);
-//        userDaoJdbc.addUser(8,"Uluk","Ismanov", (byte) 34);
-
-//        userDaoJdbc.saveUser("Akyl ","Abdashimov",(byte)2 );
-//        userDaoJdbc.saveUser("Kanat ","Subanov",(byte)12 );
-//        userDaoJdbc.removeUserById(1);
-//        for (User u: userDaoJdbc.getAllUsers()) {
+        //UserDaoHibernateImpl userDaoJdbc = new UserDaoHibernateImpl();
+        UserServiceImplH userServiceImplH = new UserServiceImplH();
+       // userServiceImplH.createUsersTable();
+       // userServiceImplH.dropUsersTable();
+       // userServiceImplH.saveUser("Maha","Islamidinov", (byte) 16);
+//        userDaoHibernate.saveUser("Maha","Islamidinov",(byte)12 );
+//        userDaoHibernate.saveUser("Akyl ","Abdashimov",(byte)2 );
+//        userDaoHibernate.saveUser("Kanat ","Subanov",(byte)12 );
+//        userDaoHibernate.removeUserById(1);
+//        for (User u: userDaoHibernate.getAllUsers()) {
 //            System.out.println(u);
 //        }
 
 
-//        userDaoJdbc.cleanUsersTable();
+//        userDaoHibernate.cleanUsersTable();
 //        userDaoHibernate.createUsersTable();
-        // userDaoHibernate.createUsersTable();
+//         userDaoHibernate.createUsersTable();
 //        userDaoHibernate.dropUsersTable();
 //        UserDaoJdbcImpl userDaoHibernate = null;
 //        userDaoHibernate.saveUser("Kanat","Subanov", (byte) 23);

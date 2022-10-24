@@ -34,12 +34,10 @@ public class UserDaoJdbcImpl implements UserDao {
 
     }
 
-    @Override
-    public void addUser(int i, String juma0, String aisal, byte b) {
 
-    }
 
-    public void findByUserById(int i) {
 
-    }
+
+
+
 }
